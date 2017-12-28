@@ -8,9 +8,9 @@ public class MyProducerSpring {
 
 	AbstractApplicationContext ctx = new ClassPathXmlApplicationContext("context.xml");
 	RabbitTemplate template = ctx.getBean(RabbitTemplate.class);
-	
-//	template.convertAndSend("Hello, world!");
-//	Thread.sleep(1000);
-//	ctx.destroy();
-	
+
+	// template.convertAndSend("Hello, world!");
+	// Thread.sleep(1000);
+	// ctx.destroy();
+
 }
