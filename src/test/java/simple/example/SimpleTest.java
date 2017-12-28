@@ -1,8 +1,8 @@
 package simple.example;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class SimpleTest {
 
@@ -12,7 +12,7 @@ public class SimpleTest {
 
 		String result = myUnit.concatenate("one", "two");
 
-		assertEquals("onetow", result);
+		assertEquals("onetwo", result);
 
 	}
 
